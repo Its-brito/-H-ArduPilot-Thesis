@@ -4,7 +4,7 @@ Prerequiste (i.e. what I used)
 OS: Ubutnu 22.04.5 LTS
 
 # Workspace creation
-**Disclaimer: Never trust online .sh files as these can be dangerous**\
+**Disclaimer: Never trust online .sh files as these can be dangerous** 
 
 Because these things are always finicky, and I don't know yet how to use docker , these are the steps I'm documenting for this to work. The .sh files should be harmless but as I don't really know what I am doing, please always follow the original documentation.
 
