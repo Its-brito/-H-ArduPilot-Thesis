@@ -10,20 +10,20 @@ Because these things are always finicky, and I don't know yet how to use docker 
 
 ## Cloning and Installing programs
 
-#### 1st - clone ardupilot from their repo: https://ardupilot.org/dev/docs/building-setup-linux.html#building-setup-linux\
+#### 1st - clone ardupilot from their repo: https://ardupilot.org/dev/docs/building-setup-linux.html#building-setup-linux 
 I've created a file that should do this automatically in case you guys are too lazy to check all the steps:
 ```
 chmod u+x ardupilot_install.sh 
 ./ardupilot_install.sh
 ```
-#### 2nd - Install Gazebo Harmonic\
+#### 2nd - Install Gazebo Harmonic
 Again, you can just type this in your console:
 ```
 chmod u+x gazebo_install.sh
 ./gazebo_install.sh
 ```
 
-#### 3rd - Gazebo-Ardupilot Plugin - https://github.com/ArduPilot/ardupilot_gazebo/tree/main \
+#### 3rd - Gazebo-Ardupilot Plugin - https://github.com/ArduPilot/ardupilot_gazebo/tree/main 
 This one is <sup>kinda</sup>finicky as I there is some /.bashrc writing:
 ```
 chmod u+x plugin_install.sh
