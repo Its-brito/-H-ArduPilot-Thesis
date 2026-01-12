@@ -1,7 +1,7 @@
 #!/bin/bash
 
-gnome-terminal --title="Gazebo installer" -- bash c"
-echo 'Installing Gazebo'
+gnome-terminal --title="Gazebo installer" -- bash -c "
+echo 'Installing Gazebo';
 sudo apt-get update;
 sudo apt-get install curl lsb-release gnupg;
 sudo curl https://packages.osrfoundation.org/gazebo.gpg --output /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg;

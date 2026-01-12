@@ -23,3 +23,10 @@ chmod u+x gazebo_install.sh
 ./gazebo_install.sh
 ```
 
+3rd - Gazebo-Ardupilot Plugin - https://github.com/ArduPilot/ardupilot_gazebo/tree/main
+This one is kinda finicky as I try to do some stuff on the .bashrc file:
+```
+chmod u+x plugin_install.sh
+./plugin_install.sh
+```
+
