@@ -24,11 +24,13 @@ chmod u+x gazebo_install.sh
 ```
 
 #### 3rd - Gazebo-Ardupilot Plugin - https://github.com/ArduPilot/ardupilot_gazebo/tree/main 
-This one is <sup>kinda</sup>finicky as I there is some /.bashrc writing:
+This one is <sup>ki</sup>n<sub>da</sub> finicky as I there is some /.bashrc writing:
 ```
 chmod u+x plugin_install.sh
 ./plugin_install.sh
 ```
-
-
+#### 4th - Clone SITL_Models - https://github.com/ArduPilot/SITL_Models/tree/master
+```
+git clone https://github.com/ArduPilot/SITL_Models.git
+```
 
