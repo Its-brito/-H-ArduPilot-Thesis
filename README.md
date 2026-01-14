@@ -29,7 +29,9 @@ chmod u+x plugin_install.sh
 ./plugin_install.sh
 ```
 #### 4th - Clone SITL_Models - https://github.com/ArduPilot/SITL_Models/tree/master
+Make sure you install it it ~
 ```
+cd ~/ 
 git clone https://github.com/ArduPilot/SITL_Models.git
 ```
 

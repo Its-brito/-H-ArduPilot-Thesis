@@ -1,8 +1,10 @@
 #!/bin/bash
 
 gnome-terminal --title="Ardupilot Installer" -- bash -c "
-rm -r ardupilot;
+rm -r \"$HOME/(H)Ard-uPilot Thesis/ardupilot/\";
+-y;
 echo 'Starting ArduPilot Installation...';
+cd ~;
 git clone --recurse-submodules https://github.com/ArduPilot/ardupilot.git;
 cd ardupilot || {echo 'Smthg went wrong, maybe try it for yourself';exec bash;};
 git submodule update;
