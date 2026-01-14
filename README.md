@@ -1,6 +1,5 @@
 # (H)arduPilot Thesis 
 Prerequiste (i.e. what I used)
-
 OS: Ubutnu 22.04.5 LTS
 
 # Workspace creation
@@ -34,3 +33,23 @@ chmod u+x plugin_install.sh
 git clone https://github.com/ArduPilot/SITL_Models.git
 ```
 
+#### 5th - QGroundControl install - https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html
+
+```
+sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-libav gstreamer1.0-gl -y
+sudo apt install libfuse2 -y
+sudo apt install libxcb-xinerama0 libxkbcommon-x11-0 libxcb-cursor-dev -y
+```
+1. Download https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl-x86_64.AppImage
+2. run this:
+```
+cd ~/Downloads/
+chmod +x QGroundControl-x86_64.AppImage
+```
+
+# Launching programs
+
+Easy, I've created a .sh file that does it all for y'all :D
+```
+./launch_sim.sh
+```
