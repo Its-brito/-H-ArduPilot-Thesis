@@ -1,6 +1,7 @@
 # (H)arduPilot Thesis 
 Prerequiste (i.e. what I used)
-OS: Ubutnu 22.04.5 LTS
+
+OS: Ubuntu 22.04.5 LTS
 
 # Workspace creation
 **Disclaimer: Never trust online .sh files as these can be dangerous** 
@@ -12,20 +13,17 @@ Because these things are always finicky, and I don't know yet how to use docker 
 #### 1st - clone ardupilot from their repo: https://ardupilot.org/dev/docs/building-setup-linux.html#building-setup-linux 
 I've created a file that should do this automatically in case you guys are too lazy to check all the steps:
 ```
-chmod u+x ardupilot_install.sh 
 ./ardupilot_install.sh
 ```
 #### 2nd - Install Gazebo Harmonic
 Again, you can just type this in your console:
 ```
-chmod u+x gazebo_install.sh
 ./gazebo_install.sh
 ```
 
 #### 3rd - Gazebo-Ardupilot Plugin - https://github.com/ArduPilot/ardupilot_gazebo/tree/main 
 This one is <sup>ki</sup>n<sub>da</sub> finicky as I there is some /.bashrc writing:
 ```
-chmod u+x plugin_install.sh
 ./plugin_install.sh
 ```
 #### 4th - Clone SITL_Models - https://github.com/ArduPilot/SITL_Models/tree/master
@@ -49,7 +47,7 @@ cd ~/Downloads/
 chmod +x QGroundControl-x86_64.AppImage
 ```
 
-# Launching programs
+# Launching program
 
 Easy, I've created a .sh file that does it all for y'all :D
 ```
