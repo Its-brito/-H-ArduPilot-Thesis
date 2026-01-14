@@ -1,3 +1,4 @@
-ardupilot/
-SITL_Models/
-
+scripts/
+mav.tlog/
+mav.parm/
+eprom.bin/
